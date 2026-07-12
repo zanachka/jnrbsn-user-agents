@@ -159,8 +159,8 @@ def generate_safari_user_agents():
 def generate_edge_user_agents():
     user_agents = []
     response = requests_get(
-        'https://raw.githubusercontent.com/MicrosoftDocs/Edge-Enterprise/refs/heads/public'
-        '/edgeenterprise/microsoft-edge-relnote-stable-channel.md')
+        'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel'
+        '?accept=text/markdown')
     versions = set()
     for line in response.text.splitlines():
         match = re.match(
