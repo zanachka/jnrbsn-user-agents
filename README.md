@@ -4,6 +4,11 @@ Latest user agent strings for major browsers and OSs; checks for updates daily:
 
 <https://jnrbsn.github.io/user-agents/user-agents.json>
 
+## Update 2026-07-12
+
+Fixed error getting Microsoft Edge version. Sorry everyone for taking so long
+to fix this, especially since it ended up being only a one-line change.
+
 ## Update 2025-01-23
 
 **TL;DR:** I made it better, more correct, and more reliable! :tada:
